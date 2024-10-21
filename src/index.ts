@@ -1,3 +1,3 @@
-import { solution605 } from "./605";
+import { solution2047 } from "./2047";
 
-solution605()
+solution2047()
