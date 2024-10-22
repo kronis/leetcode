@@ -1,4 +1,3 @@
-import { solution125 } from "./125";
-import { solution58 } from "./58";
+import { solution80 } from "./80";
 
-solution125();
+solution80();

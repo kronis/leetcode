@@ -9,6 +9,7 @@ A word is a maximal substring consisting of non-space characters only.
 function lengthOfLastWord(s: string): number {
   const words = s.split(/\s+/g).filter((w) => w !== "");
   return words[words.length - 1].length;
+  s.i
 }
 
 export function solution58() {
