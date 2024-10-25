@@ -9,7 +9,8 @@
     "test-watch": "jest --watch",
     "build": "tsc --p ./scripts",
     "refresh": "rm -rf dist scripts/dist node_modules && npm ci && npm run build ",
-    "problem": "node scripts/dist/index.js"
+    "problem": "node scripts/dist/index.js",
+    "protector": "tsx src/protector/run.ts"
   },
   "author": "",
   "license": "ISC",
